@@ -1,0 +1,36 @@
+body {
+  min-height: 500px;
+  padding-top: 70px;
+}
+
+.hidden {
+  display: none;
+}
+
+#popup, #popupUpdate {
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid grey;
+  margin: 60px auto;
+  opacity: 0.95;
+  top: 0;
+  left: 25%;
+  background:  #fff;
+  z-index: 1000;
+  position: absolute;
+}
+
+.fa {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.fa:hover {
+  cursor: pointer;
+}
+
+.task {
+  border: 1px solid grey;
+  padding: 10px;
+  margin-bottom: 3px;
+}
